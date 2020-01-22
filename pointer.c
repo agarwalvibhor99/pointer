@@ -202,7 +202,7 @@ int iterator_insert_after(LinkedListIterator* iter, LinkedListNode* node)
     }
     else{
         node->next = iter->curr->next;
-        iter->curr->next = node; //
+        iter->curr->next = node; 
         return 0;
     }
 }
